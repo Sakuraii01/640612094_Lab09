@@ -11,7 +11,7 @@ int main(){
     cout << "Enter your age: ";
     cin >> age;
 
-    if(0 <=age <= 20){
+    if(0 <= age && age <= 20){
         cout << "Enter your height: ";
         cin >> height;
 
@@ -29,7 +29,7 @@ int main(){
                 status = "ONE-NIGHT-STAND";
             }
         }
-    }else if(age <= 30){
+    }else if(age < 30){
         cout << "Enter your property: ";
         cin >> property;
         if(property > 10000000){
